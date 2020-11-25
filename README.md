@@ -1,17 +1,31 @@
-# **Assignment Title**  
+# **Gimmie Half**  
 
 ## **Assignment Description**  
-
+Create a method called gimmieHalf() that returns true/false if a given float x is exactly half of a given float y.
 
 ## **Examples**  
->
+>gimmieHalf(5, 10)  
+true
+
+>gimmieHalf(6, 10)  
+false
+
+>gimmieHalf(22, 44)  
+true
+
+>gimmieHalf(1, 3)
+false
 
 ## **Limitations**  
+1 method  
+1 if  
+1 else
 
 ## **Hints**  
+N/A
 
 ## **Concepts**  
-
+Methods, float, boolean, if/else
 
 ---
 

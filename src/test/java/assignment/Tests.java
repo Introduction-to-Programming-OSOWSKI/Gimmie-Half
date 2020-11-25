@@ -17,13 +17,15 @@ public class Tests {
    @Test
    public void code(){
        App.main(null);
-       //assertEquals("EXPECTED", App.testMethod(), "Code Failed");
+       assertEquals(true, App.gimmieHalf(2, 4), "Code Failed");
+       assertEquals(true, App.gimmieHalf(11, 22), "Code Failed");
+       assertEquals(false, App.gimmieHalf(5, 6), "Code Failed");
    }
 
    @Test
     public void late() {
         App.main(null);
-        //assertTrue(DueDate.onTime(2020, 11, 24), "Submitted Late");
+        assertTrue(DueDate.onTime(2021, 1, 4), "Submitted Late");
     }
 
 }
